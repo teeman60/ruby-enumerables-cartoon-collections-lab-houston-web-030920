@@ -11,7 +11,10 @@ end
 # binding.pry
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
-
+  veggies.each do |ele|
+    ele.capitalize 
+  end
+return "ele.capitalize + !"
 end
 
 def long_planeteer_calls# code an argument here
