@@ -14,7 +14,7 @@ def summon_captain_planet(veggies)# code an argument here
 new_arr = []
   # Your code here
   veggies.each do |ele|
-    new_arr << "#{ele.capitalize} + !"
+    new_arr << "#{ele.capitalize}!"
   end
 
   return new_arr
