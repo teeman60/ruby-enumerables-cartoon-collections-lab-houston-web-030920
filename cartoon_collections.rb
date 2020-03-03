@@ -12,9 +12,9 @@ end
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
   veggies.each do |ele|
-    ele.capitalize
+    new_string = "ele.capitalize + !"
   end
-return "ele.capitalize + !".split
+return "new_string".split
 end
 
 def long_planeteer_calls# code an argument here
