@@ -29,9 +29,9 @@ end
 def find_the_cheese(food)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.each_with_index do |ele, i|
+  food.first do |ele|
     if ele == "cheddar" || ele == "gouda" || ele == "camembert"
-      return ele[i]
+      return ele.first
     else return nil
     end
   end
