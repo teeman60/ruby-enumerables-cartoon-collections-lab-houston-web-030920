@@ -34,7 +34,7 @@ def find_the_cheese(food)# code an argument here
     if ele == "cheddar" || ele == "gouda" || ele == "camembert"
       cheese << ele
       return cheese[0]
-    
+
     end
   end
    return nil
