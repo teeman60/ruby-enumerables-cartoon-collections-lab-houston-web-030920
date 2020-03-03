@@ -9,12 +9,16 @@ def roll_call_dwarves(dwarves)# code an argument here
 
 end
 # binding.pry
+
 def summon_captain_planet(veggies)# code an argument here
+new_arr = []
   # Your code here
   veggies.each do |ele|
-    new_string = "ele.capitalize + !"
+    new_arr << "#{ele.capitalize} + !"
   end
-return "new_string".split
+
+  return new_arr
+
 end
 
 def long_planeteer_calls# code an argument here
