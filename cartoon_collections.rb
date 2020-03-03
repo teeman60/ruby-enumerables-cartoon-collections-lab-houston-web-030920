@@ -31,7 +31,7 @@ def find_the_cheese(food)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.each_with_index do |ele, i|
     if ele == "cheddar" || ele == "gouda" || ele == "camembert"
-      return ele
+      return ele[i]
     else return nil
     end
   end
